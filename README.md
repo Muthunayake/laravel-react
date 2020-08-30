@@ -17,7 +17,7 @@ composer update && npm install
 
 
 ## Config Environment.
-Copy .env.example to .env
+cp .env.example .env
 
 
 ## Generate app key
