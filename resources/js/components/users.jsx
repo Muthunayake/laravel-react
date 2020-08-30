@@ -18,13 +18,8 @@ class Users extends Component {
     };
 
     async componentDidMount() {
-        const {
-            data: { users, success }
-        } = await axios.get("http://localhost:8000/api/users");
-
-        this.setState({
-            users: users
-        });
+        const users = await getUsers();
+        this.setState({ users });
     }
 
     render() {

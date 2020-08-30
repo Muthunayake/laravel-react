@@ -15,7 +15,13 @@
 
 ## Clone the git Repository
 
-> {info} git colne https://github.com/Muthunayake/laravel-react
+> {info} git clone https://github.com/Muthunayake/laravel-react
+
+<a name="section-1"></a>
+
+## Change Directory
+
+> {info} cd laravel-react
 
 <a name="section-2"></a>
 
@@ -27,7 +33,7 @@
 
 ## Config Environment.
 
-> {info} Copy .env.example to .env
+> {info} cp .env.example .env
 
 <a name="section-4"></a>
 

@@ -86822,25 +86822,21 @@ var Users = /*#__PURE__*/function (_Component) {
     key: "componentDidMount",
     value: function () {
       var _componentDidMount = _asyncToGenerator( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee() {
-        var _yield$axios$get, _yield$axios$get$data, users, success;
-
+        var users;
         return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {
           while (1) {
             switch (_context.prev = _context.next) {
               case 0:
                 _context.next = 2;
-                return axios.get("http://localhost:8000/api/users");
+                return Object(_services_userservice__WEBPACK_IMPORTED_MODULE_2__["getUsers"])();
 
               case 2:
-                _yield$axios$get = _context.sent;
-                _yield$axios$get$data = _yield$axios$get.data;
-                users = _yield$axios$get$data.users;
-                success = _yield$axios$get$data.success;
+                users = _context.sent;
                 this.setState({
                   users: users
                 });
 
-              case 7:
+              case 4:
               case "end":
                 return _context.stop();
             }
@@ -87104,7 +87100,7 @@ function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try
 function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
 
 
-var endpoint = "http://localhost:8000/api/users";
+var endpoint = "/api/users";
 function getUsers() {
   return _getUsers.apply(this, arguments);
 }
