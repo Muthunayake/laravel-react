@@ -1,3 +1,9 @@
+## Project Description
+SPA made with Laravel and React for User Profile Managment
+Front End - React version 16.13.1
+Back End - Laravel Framework 7.25.0
+Database - MySql
+
 ## Installation
 
 ## Clone the git Repository
