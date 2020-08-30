@@ -31,8 +31,6 @@ set database name , username , password to .env
 ## Run database migration
 php artisan migrate:fresh
 
-## Create Image Path
-php artisan storage:link
 
 ## Create Fake Users
 php artisan db:seed
