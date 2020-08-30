@@ -53,6 +53,12 @@
 
 > {info} php artisan migrate:fresh
 
+<a name="section-6"></a>
+
+## Create Image Path
+
+> {info} php artisan storage:link
+
 <a name="section-7"></a>
 
 ## Create Fake Users
