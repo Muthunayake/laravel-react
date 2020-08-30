@@ -7,7 +7,7 @@ Database - MySql
 ## Installation
 
 ## Clone the git Repository
-git colne https://github.com/Muthunayake/laravel-react
+git clone https://github.com/Muthunayake/laravel-react
 
 
 ## Installing all Composer & NPM dependencies.
